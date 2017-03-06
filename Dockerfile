@@ -18,6 +18,7 @@ php-apcu \
 php7.0-json \
 php7.0-pgsql \
 php7.0-zip \
+php7.0-mbstring \
 php-soap && \
 
 phpenmod mcrypt && \
