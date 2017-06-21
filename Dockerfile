@@ -26,4 +26,5 @@ phpenmod mcrypt && \
 sed -i 's/^display_errors = .*/display_errors = On/' /etc/php/7.0/apache2/php.ini && \
 sed -i 's/^error_reporting = .*/error_reporting = E_ALL \& ~E_DEPRECATED \& ~E_STRICT \& ~E_NOTICE/' /etc/php/7.0/apache2/php.ini && \
 
+
 rm -rf /var/lib/apt/lists/*
